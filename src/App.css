@@ -21,7 +21,7 @@ body {
   position: fixed; /* Fija la navbar en la parte superior */
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1200px;
   z-index: 1000; 
 }
 
@@ -159,5 +159,13 @@ button:hover {
  color: #FF69B4 
 }
 
+.footer {
+  background-color: #FF69B4; /* Rosa oscuro */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 4px solid #FFC0CB; /* Rosa claro */
+  width: 1200px;
+}
 
 

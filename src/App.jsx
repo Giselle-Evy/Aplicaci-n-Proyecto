@@ -3,6 +3,7 @@ import Navbar from './Componentes/Navbar.jsx'; // Importa el Navbar
 import Images from './Componentes/Images.jsx'; // Importa las imagenes
 import Buttons from './Componentes/Buttons.jsx'; // Importa los botones
 import Blog from './Componentes/Blog.jsx'; // Importa la informacion
+import Footer from './Componentes/Footer.jsx'; // Importa la seccion de footer
 import './App.css'; // Importa los estilos
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Buttons />
       </section>
       <Blog />
+      <Footer />
     </div>
   );
 }
