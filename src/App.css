@@ -53,3 +53,44 @@ body {
   vertical-align: middle; /* Alinea la imagen con el texto */
   
 }
+
+.Coleccion {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #FFB6C1; 
+  
+  color: white;
+}
+
+.Coleccion h1 {
+  font-size: 48px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.Coleccion p {
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.images-gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: #FFB6C1; 
+  
+}
+
+.images-gallery img {
+  border: 5px solid #FFC0CB; 
+  border-radius: 10px;
+  width: 135px;
+  height: 150px;
+  box-shadow: 0 0 30px rgb(255, 255, 255); /*lo primero es para colocar el borde de la sombra*/
+}
+
+.images-gallery img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
