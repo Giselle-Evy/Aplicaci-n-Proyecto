@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Componentes/Navbar.jsx'; // Importa el Navbar
 import Images from './Componentes/Images.jsx'; // Importa las imagenes
+import Buttons from './Componentes/Buttons.jsx'; // Importa los botones
 import './App.css'; // Importa los estilos
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <h1>Nueva Colección de Ropa Primavera 2024</h1>
         <p>"Descubre los colores y estilos que definirán esta temporada."</p>
         <Images />
+        <Buttons />
       </section>
       
     </div>

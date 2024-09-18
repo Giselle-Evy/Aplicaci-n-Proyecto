@@ -94,3 +94,27 @@ body {
   transform: scale(1.05);
   transition: 0.3s;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  background-color:  #FFB6C1
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #FF69B4 !important; 
+  color: white;
+  border: 2px solid #FFD1DC !important; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #FFB6C1 !important; 
+  border-color: #FF69B4 !important;
+}
+
