@@ -5,10 +5,10 @@ const Navbar = () => {
     <nav className="navbar">
       <ul>
       <li><a><img src="/imagenes/tienda.png" alt="Logo" className="navbar-logo" />Glossier</a></li>
-        <li><a href="#home">Inicio</a></li>
-        <li><a href="#about">Acerca de nosotros</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a>Inicio</a></li>
+        <li><a>Acerca de nosotros</a></li>
+        <li><a>Servicios</a></li>
+        <li><a>Contacto</a></li>
       </ul>
     </nav>
   );
